@@ -32,6 +32,7 @@ public class Login extends HttpServlet {
 	/**
 	 * Get Post Handles Username and Password and Calls a Validate Function
 	 */
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		response.setContentType("text/html");
